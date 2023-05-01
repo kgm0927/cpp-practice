@@ -1,0 +1,2 @@
+﻿4-10.obj : error LNK2019: "public: __cdecl Circle::~Circle(void)" (??1Circle@@QEAA@XZ)"public: void * __cdecl Circle::`vector deleting destructor'(unsigned int)" (??_ECircle@@QEAAPEAXI@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\user.JY-20211004VDBU\source\repos\Chapter04\x64\Debug\4-10.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
