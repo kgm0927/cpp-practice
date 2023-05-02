@@ -13,7 +13,7 @@ public:
 };
 
 int main() {
-	Circle circleArray[3] = {Circle(10),Circle(20),Circle()};
+	Circle circleArray[3] = {Circle(10),Circle(20),Circle()}; // 생성자를 배열화 함.
 
 	for (int i = 0; i < 3; i++)
 	{
