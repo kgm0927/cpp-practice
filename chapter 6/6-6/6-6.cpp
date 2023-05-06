@@ -6,7 +6,7 @@ class MyVector {
 	int size;
 
 public:
-	MyVector(int n = 100) {
+	MyVector(int n = 100) { // 생성자 파라미터 초기화 
 		p = new int[n];
 		size = n;
 	}
@@ -18,8 +18,8 @@ public:
 
 int main() {
 	MyVector* v1, * v2;
-	v1 = new MyVector();
-	v2 = new MyVector(1024);
+	v1 = new MyVector();	// 디폴트로 정수 배열 100 동적 할당.
+	v2 = new MyVector(1024);	// 정수 배열 1024 동적 할당.
 
 
 	delete v1;

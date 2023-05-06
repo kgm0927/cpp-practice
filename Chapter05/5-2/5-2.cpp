@@ -12,12 +12,12 @@ public:
 
 Circle getCircle() {
 	Circle tmp(30);
-	return tmp;
+	return tmp; // 객체 tmp를 리턴한다.
 }
 
 int main() {
 
-	Circle c;
+	Circle c; // 객체가 생성된다. radius=1로 초기화된다.
 	cout << c.getArea() << endl;
 
 	c = getCircle();

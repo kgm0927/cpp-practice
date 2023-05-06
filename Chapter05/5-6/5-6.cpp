@@ -27,9 +27,9 @@ Circle::~Circle() {
 	cout << "소멸자 실행 radius= " << radius << endl;
 }
 
-void increase(Circle& c) {
+void increase(Circle& c) {// c는 참조 매개 변수
 	int r = c.getRadius();
-	c.setRadius(r + 1);
+	c.setRadius(r + 1); // c가 참조하는 원본 객체의 반지름 1 증가
 }
 
 int main() {
@@ -37,3 +37,9 @@ int main() {
 	increase(waffle);
 	cout << waffle.getRadius() << endl;
 }
+
+//실행 결과
+// 생성자 실행 radius=30
+// 31
+// 소멸자 실행 radius=31
+//
