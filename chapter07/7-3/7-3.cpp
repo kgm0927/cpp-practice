@@ -1,7 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class Rect;
+// * 프렌드 클래스 선언
+//
+// 다른 클래스의 모든 멤버 함수를 클랫의 프렌드 함수로 한 번에 선언할 수 있다. 다음 코드는 RectManager 클래스를 Rect 클래스에 프렌드로
+// 초대한다.
+//
+
+class Rect;		
 
 class RectManager {
 public:
@@ -14,10 +20,10 @@ class Rect {
 	int width, height;
 public:
 	Rect(int width, int height) { this->width = width; this->height = height; }
-	friend RectManager;
+	friend RectManager;	// RectManager 클랫의 모든 함수를 프렌드로 초대
 };
 
-bool RectManager::equals(Rect r, Rect s) {
+bool RectManager::equals(Rect r, Rect s) { // r과 s가 같으면 true 리턴
 	if (r.width == s.width && r.height == s.height)
 	{
 		return true;
@@ -25,7 +31,7 @@ bool RectManager::equals(Rect r, Rect s) {
 	else return false;
 }
 
-void RectManager::copy(Rect& dest, Rect& src) {
+void RectManager::copy(Rect& dest, Rect& src) { // src를 dest에 복사
 	dest.width = src.width; dest.height = src.height;
 }
 
@@ -33,7 +39,7 @@ int main() {
 	Rect a(3, 4), b(5, 6);
 	RectManager man;
 
-	man.copy(b, a);
+	man.copy(b, a);	// a를 b에 복사한다.
 	if (man.equals(a, b))
 	{
 		cout << "equal" << endl;

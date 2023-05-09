@@ -2,6 +2,7 @@
 using namespace std;
 
 
+
 class Power {
 	int kick;
 	int punch;
