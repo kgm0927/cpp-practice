@@ -1,0 +1,3 @@
+﻿  7-13.cpp
+C:\Users\user.JY-20211004VDBU\Downloads\cpp-practice-main\chapter07\7-13\7-13.cpp(59): warning C4172: 지역 변수 또는 임시: tmp의 주소를 반환하고 있습니다.
+  7-13.vcxproj -> C:\Users\user.JY-20211004VDBU\Downloads\cpp-practice-main\chapter07\x64\Debug\7-13.exe
