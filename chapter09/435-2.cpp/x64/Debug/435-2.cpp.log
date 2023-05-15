@@ -1,0 +1,2 @@
+﻿  435-2.cpp
+C:\Users\kgm09\source\repos\chapter09\435-2.cpp\435-2.cpp(16,8): error C3668: 'Circle::drow': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
