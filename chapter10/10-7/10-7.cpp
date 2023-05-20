@@ -82,10 +82,10 @@ int main() {
 
 	MyStack<Point*> pStack;		//Point*만 저장하는 스택
 	pStack.push(new Point(10,20));// 동적 생성 Point 객체 푸시, 포인터만 저장
-	Point* pPoint = pStack.pop();
-	pPoint->show();
+	Point* pPoint = pStack.pop();	// Point 객체의 포인터 팝
+	pPoint->show();					// Point 객체 출력
 
-	MyStack<string> stringStack;
+	MyStack<string> stringStack;// 문자열만 저장하는 스택
 	string s = "c++";
 	stringStack.push(s);
 	stringStack.push("java");
