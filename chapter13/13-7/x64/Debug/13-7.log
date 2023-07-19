@@ -1,0 +1,12 @@
+﻿  13-7.cpp
+C:\Users\kgm09\source\repos\chapter13\13-7\MyStack.h(12,29): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+C:\Users\kgm09\source\repos\chapter13\13-7\MyStack.h(13,22): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+  Mystack.cpp
+C:\Users\kgm09\source\repos\chapter13\13-7\MyStack.h(12,29): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+C:\Users\kgm09\source\repos\chapter13\13-7\MyStack.h(13,22): warning C4290: 함수가 __declspec(nothrow)가 아님을 나타내려는 경우를 제외하고 C++ 예외 사양은 무시됩니다.
+C:\Users\kgm09\source\repos\chapter13\13-7\Mystack.cpp(3,27): warning C5043: 'MyStack::push': 예외 사양이 이전 선언과 일치하지 않습니다.
+C:\Users\kgm09\source\repos\chapter13\13-7\MyStack.h(12,7): message : 'MyStack::push' 선언을 참조하십시오.
+C:\Users\kgm09\source\repos\chapter13\13-7\Mystack.cpp(10,20): warning C5043: 'MyStack::pop': 예외 사양이 이전 선언과 일치하지 않습니다.
+C:\Users\kgm09\source\repos\chapter13\13-7\MyStack.h(13,6): message : 'MyStack::pop' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  13-7.vcxproj -> C:\Users\kgm09\source\repos\chapter13\x64\Debug\13-7.exe
