@@ -1,0 +1,4 @@
+﻿  4-15.cpp
+C:\Users\kgm09\OneDrive\문서\GitHub\cpp-practice\Chapter04\4-15\4-15.cpp(20,14): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\kgm09\OneDrive\문서\GitHub\cpp-practice\Chapter04\4-15\4-15.cpp(25,23): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  4-15.vcxproj -> C:\Users\kgm09\OneDrive\문서\GitHub\cpp-practice\Chapter04\x64\Debug\4-15.exe
